@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    padding: 20px;
+  }
+
+  .container {
+    max-width: 400px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+
+  h2 {
+    text-align: center;
+    color: #e60023;
+  }
+
+  .offer {
+    border: 2px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    position: relative;
+    transition: 0.3s ease;
+  }
+
+  .offer.expanded {
+    background: #ffecec;
+    border-color: #e60023;
+  }
+
+  .badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #e60023;
+    color: white;
+    padding: 2px 8px;
+    font-size: 12px;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .options {
+    margin-top: 10px;
+    display: none;
+  }
+
+  .offer.expanded .options {
+    display: block;
+  }
+
+  .option-group {
+    margin-bottom: 10px;
+  }
+
+  .option-group label {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  .option-group select {
+    width: 100%;
+    padding: 5px;
+  }
+
+  .price {
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .add-to-cart {
+    background: #ff3366;
+    color: white;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  .total {
+    text-align: right;
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+  .strike {
+    text-decoration: line-through;
+    color: gray;
+    font-size: 12px;
+  }
